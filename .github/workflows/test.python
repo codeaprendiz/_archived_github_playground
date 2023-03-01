@@ -1,0 +1,9 @@
+import os
+
+file_path = os.environ['HOME'] + '/example.txt'
+file_data = 'This is some sensitive data'
+
+with open(file_path, 'w') as f:
+    f.write(file_data)
+
+print('Data written to file:', file_path)
