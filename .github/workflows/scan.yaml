@@ -22,7 +22,7 @@ jobs:
           severity: 'LOW,MEDIUM,HIGH,CRITICAL'
           exit-code: '1'
           # scan-ref: './../../'
-          scan-ref: '..'
+          # scan-ref: '.'
 
       # - name: Upload Trivy scan results to GitHub Security tab
       #   uses: github/codeql-action/upload-sarif@v2
