@@ -17,11 +17,11 @@ jobs:
         with:
           scan-type: 'fs'
           ignore-unfixed: true
-          format: 'table'
+          format: 'json'
           # output: 'trivy-results.sarif'
           severity: 'LOW,MEDIUM,HIGH,CRITICAL'
           exit-code: '1'
-          scan-ref: './../../'
+          # scan-ref: './../../'
           # scan-ref: '.'
 
       # - name: Upload Trivy scan results to GitHub Security tab
