@@ -21,7 +21,7 @@ jobs:
           # output: 'trivy-results.sarif'
           severity: 'LOW,MEDIUM,HIGH,CRITICAL'
           exit-code: '1'
-          skip-files:	'rsa-key-temp-not-in-use.pem'
+          skip-files:	'rsa-key-temp-not-in-use.pem,folder/dummy-rsa-key.pem'
           # scan-ref: './../../'
           # scan-ref: '.'
 
