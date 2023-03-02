@@ -22,7 +22,7 @@ jobs:
           severity: 'LOW,MEDIUM,HIGH,CRITICAL'
           exit-code: '1'
           skip-files:	'rsa-key-temp-not-in-use.pem'
-          # scan-ref: './../../'
+          scan-ref: './../../'
           # scan-ref: '.'
           security-checks: 'vuln,secret,config'
 
